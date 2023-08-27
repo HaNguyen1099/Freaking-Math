@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    tools:context=".IncorrectActivity">
+
+    <TextView
+        android:id="@+id/go_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: "
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textSize="30dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/game_over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textSize="60dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/replay"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#FFFFFF"
+        android:paddingBottom="10dp"
+        android:text="Replay"
+        android:textColor="#332FA2"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/replay"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#FFFFFF"
+        android:paddingBottom="10dp"
+        android:text="Back to home"
+        android:textColor="#332FA2"
+        android:textSize="30dp" />
+
+</RelativeLayout>
